@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/* line 26, ../sass/audioplayer.scss */
+body {
+  margin: 10em auto;
+  padding: 0;
+  font-size: 10px;
+  font-family: Verdana,나눔고딕,sans-serif;
+  color: #868686;
+  text-align: center;
+}
+
+/* line 35, ../sass/audioplayer.scss */
+.audioplayer > div {
+  position: absolute;
+}
+
+/* line 39, ../sass/audioplayer.scss */
+.audioplayer {
+  position: relative;
+  width: 300px;
+  height: 75px;
+  background-color: #E9E9E9;
+  border: 0px;
+  margin: 0 auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 47, ../sass/audioplayer.scss */
+.audioplayer audio {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+/* line 53, ../sass/audioplayer.scss */
+.audioplayer .buttons {
+  top: 30px;
+  left: 10px;
+}
+/* line 55, ../sass/audioplayer.scss */
+.audioplayer .buttons a {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  text-indent: -9999px;
+  display: block;
+}
+/* line 61, ../sass/audioplayer.scss */
+.audioplayer .buttons .play {
+  left: 30px;
+  background: transparent url(../imgs/h5play.png) no-repeat;
+}
+/* line 65, ../sass/audioplayer.scss */
+.audioplayer .buttons .next {
+  left: 60px;
+  background: transparent url(../imgs/h5next.png) no-repeat;
+}
+/* line 69, ../sass/audioplayer.scss */
+.audioplayer .buttons .prev {
+  left: 0px;
+  background: transparent url(../imgs/h5prev.png) no-repeat;
+}
+/* line 73, ../sass/audioplayer.scss */
+.audioplayer .buttons .volume {
+  left: 100px;
+  background: transparent url(../imgs/h5sound.png) no-repeat;
+}
+/* line 77, ../sass/audioplayer.scss */
+.audioplayer .buttons .play.pause, .audioplayer .buttons .volume.off {
+  background-position: -28px;
+}
+/* line 82, ../sass/audioplayer.scss */
+.audioplayer .time-total {
+  top: 10px;
+  left: 43px;
+}
+/* line 85, ../sass/audioplayer.scss */
+.audioplayer .time-loaded {
+  display: none;
+  top: 0px;
+  left: 10px;
+}
+/* line 89, ../sass/audioplayer.scss */
+.audioplayer .time-current {
+  top: 10px;
+  left: 10px;
+}
+/* line 92, ../sass/audioplayer.scss */
+.audioplayer .volume-current {
+  top: 48px;
+  left: 143px;
+}
+/* line 96, ../sass/audioplayer.scss */
+.audioplayer .barbg {
+  width: 200px;
+  height: 10px;
+  background-color: #ff9900;
+  border: 0px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 101, ../sass/audioplayer.scss */
+.audioplayer .barbg .barbg {
+  position: absolute;
+}
+/* line 105, ../sass/audioplayer.scss */
+.audioplayer .barbg.time {
+  overflow: hidden;
+  top: 12px;
+  left: 90px;
+  height: 10px;
+  background-color: #FFF;
+  -webkit-box-shadow: 2px 2px 3px #dddddd inset;
+  -moz-box-shadow: 2px 2px 3px #dddddd inset;
+  -ms-box-shadow: 2px 2px 3px #dddddd inset;
+  -o-box-shadow: 2px 2px 3px #dddddd inset;
+  box-shadow: 2px 2px 3px #dddddd inset;
+}
+/* line 111, ../sass/audioplayer.scss */
+.audioplayer .barbg.time .loaded {
+  width: 0%;
+  background-color: #ff9900;
+  -webkit-box-shadow: 2px 2px 3px #cc8d2e inset;
+  -moz-box-shadow: 2px 2px 3px #cc8d2e inset;
+  -ms-box-shadow: 2px 2px 3px #cc8d2e inset;
+  -o-box-shadow: 2px 2px 3px #cc8d2e inset;
+  box-shadow: 2px 2px 3px #cc8d2e inset;
+}
+/* line 116, ../sass/audioplayer.scss */
+.audioplayer .barbg.time .current {
+  width: 0%;
+  background-color: #ff6600;
+  -webkit-box-shadow: 2px 2px 3px #c3682b inset;
+  -moz-box-shadow: 2px 2px 3px #c3682b inset;
+  -ms-box-shadow: 2px 2px 3px #c3682b inset;
+  -o-box-shadow: 2px 2px 3px #c3682b inset;
+  box-shadow: 2px 2px 3px #c3682b inset;
+}
+/* line 123, ../sass/audioplayer.scss */
+.audioplayer .barbg.volume {
+  top: 38px;
+  left: 143px;
+  width: 146px;
+  -webkit-box-shadow: 2px 2px 3px #cc8d2e inset;
+  -moz-box-shadow: 2px 2px 3px #cc8d2e inset;
+  -ms-box-shadow: 2px 2px 3px #cc8d2e inset;
+  -o-box-shadow: 2px 2px 3px #cc8d2e inset;
+  box-shadow: 2px 2px 3px #cc8d2e inset;
+}
+/* line 126, ../sass/audioplayer.scss */
+.audioplayer .barbg.volume .current {
+  width: 50%;
+  background-color: #ff6600;
+  -webkit-box-shadow: 2px 2px 3px #c3682b inset;
+  -moz-box-shadow: 2px 2px 3px #c3682b inset;
+  -ms-box-shadow: 2px 2px 3px #c3682b inset;
+  -o-box-shadow: 2px 2px 3px #c3682b inset;
+  box-shadow: 2px 2px 3px #c3682b inset;
+}
+
+/* line 134, ../sass/audioplayer.scss */
+.mlist {
+  width: 300px;
+  margin: 0 auto;
+}
+/* line 138, ../sass/audioplayer.scss */
+.mlist ul li {
+  width: 70px;
+  text-align: left;
+}

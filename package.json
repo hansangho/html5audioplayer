@@ -1,0 +1,31 @@
+{
+  "name": "audioplayer",
+  "version": "0.1.0",
+  "description": "audio Player",
+  "main": "audioplayer.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://plat-lego.korea.ncsoft.corp/uikit/html5audioplayer.git"
+  },
+  "keywords": [
+    "html5",
+    "audio",
+    "player",
+    "audioplayer"
+  ],
+  "author": "ncsoft-hsh",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.7.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.5",
+    "grunt-contrib-compass": "~0.6.0"
+  }
+}
