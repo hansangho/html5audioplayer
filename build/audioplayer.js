@@ -1,4 +1,4 @@
-/* update: 2013-11-08 14:40:20 PM */
+/* update: 2013-11-09 23:12:48 PM */
 var apUtil = (function( $ ) {
 	var This = {};
     // reset option

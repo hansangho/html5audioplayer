@@ -1,5 +1,3 @@
-[![build status](http://plat-lego.korea.ncsoft.corp:7777/projects/45/status.png?ref=master)](http://plat-lego.korea.ncsoft.corp:7777/projects/45?ref=master)
-
 ## **audioplayer.js Project**
 
 - `Html5 AudioPlayer` 프로젝트 입니다.
